@@ -1,2 +1,10 @@
 <h1> Product Page </h1>
-<div> We're going to use this div to loop over our data later on</div>
+<div ng-repeat="prod in product">
+    <ul>
+        <li class="">Type: {{ prod.type }}</li>
+        <li class="">Color: {{ prod.color }}</li>
+        <li class="">Size: {{ prod.size }}</li>
+        <hr/>
+    </ul>
+</div>
+
